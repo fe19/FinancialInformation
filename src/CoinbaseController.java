@@ -40,7 +40,8 @@ public class CoinbaseController {
 
             JSONObject jsonResponse = new JSONObject(response);
             String responseString = String.valueOf(jsonResponse);
-            String price = jsonResponse.getJSONObject("data").getString("amount");
+            JSONObject jsonResponseString = new JSONObject(responseString);
+            String price = jsonResponseString.getJSONObject("data").getString("amount");
             System.out.println(price);
 
         } else {

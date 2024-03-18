@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d626882-cf42-45a5-80af-2b9a89c9325d" name="Changes" comment="Introduce new class for REST requests">
+    <list default="true" id="5d626882-cf42-45a5-80af-2b9a89c9325d" name="Changes" comment="Add JSON library">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinancialInformation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FinancialInformation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoinbaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoinbaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710437971584</updated>
-      <workItem from="1710437972747" duration="7647000" />
+      <workItem from="1710437972747" duration="8824000" />
     </task>
     <task id="LOCAL-00001" summary="Introduce new class for REST requests">
       <created>1710438154350</created>
@@ -77,15 +74,42 @@
       <option name="project" value="LOCAL" />
       <updated>1710438154350</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implement HTTP request for BTC using standard web request">
+      <created>1710688533320</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710688533320</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add JSON library">
+      <created>1710688551123</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710688551123</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Introduce new class for REST requests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduce new class for REST requests" />
+    <MESSAGE value="Implement HTTP request for BTC using standard web request" />
+    <MESSAGE value="Add JSON library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JSON library" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
